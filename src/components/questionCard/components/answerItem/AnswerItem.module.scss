@@ -1,0 +1,61 @@
+
+.answerButton {
+    background: #f7fafc;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 20px 24px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    text-align: left;
+  }
+  
+  .answerButton:hover:not(:disabled) {
+    background: #edf2f7;
+    border-color: #cbd5e0;
+  }
+  
+  .answerButton:disabled {
+    cursor: not-allowed;
+  }
+  
+  .answerLetter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: #667eea;
+    color: white;
+    border-radius: 8px;
+    flex-shrink: 0;
+  }
+  
+  .answerText {
+    color: #2d3748;
+    flex: 1;
+  }
+  
+  .correct {
+    background: #c6f6d5;
+    border-color: #48bb78;
+  }
+  
+  .correct .answerLetter {
+    background: #48bb78;
+  }
+  
+  .incorrect {
+    background: #fed7d7;
+    border-color: #f56565;
+  }
+  
+  .incorrect .answerLetter {
+    background: #f56565;
+  }
+  
+  .dimmed {
+    opacity: 0.5;
+  }

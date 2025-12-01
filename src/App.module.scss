@@ -1,0 +1,28 @@
+// Global app styles (Sass)
+// $logo-shadow-primary: #646cffaa;
+// $logo-shadow-react: #61dafbaa;
+
+$app-background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+
+
+.app {
+  min-height: 100vh;
+  background: $app-background;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  
+  @media (max-width: 768px) {
+    padding: 0;
+  }
+}
+

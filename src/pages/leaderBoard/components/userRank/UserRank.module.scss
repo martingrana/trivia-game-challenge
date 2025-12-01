@@ -1,0 +1,53 @@
+.entry {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+    background: #f7fafc;
+    border-radius: 12px;
+    border: 2px solid #e2e8f0;
+
+    p {
+        margin: 0;
+        color: #2d3748;
+        font-weight: 500;
+
+        &:last-child {
+            color: #718096;
+            font-size: 0.875rem;
+            font-weight: 400;
+        }
+    }
+}
+
+.entry.top3 {
+    background: linear-gradient(135deg, #fef5e7 0%, #fef5e7 100%);
+    border-color: #f6ad55;
+    box-shadow: 0 2px 8px rgba(246, 173, 85, 0.2);
+}
+
+.rank {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 40px;
+    color: #4a5568;
+    font-weight: 600;
+}
+
+.goldMedal {
+    color: #ffd700;
+}
+
+.silverMedal {
+    color: #c0c0c0;
+}
+
+.bronzeMedal {
+    color: #cd7f32;
+}
+
+.player {
+    flex: 1;
+    text-align: left;
+}

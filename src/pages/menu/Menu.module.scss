@@ -1,0 +1,38 @@
+.container {
+    color: white;
+
+    .modes {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 24px;
+        margin-top: 32px;
+    }
+}
+
+.header { 
+    h1 {
+        margin-top: 16px;
+        font-size: 25px;
+    }
+
+    p {
+        margin-top: 16px;
+    }
+
+    .logo {
+        @media (max-width: 768px) {
+            scale: 0.8;
+        }
+    }
+   
+}
+
+.leaderboard {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+    position: absolute;
+    top: 0;
+    right: 20px;
+
+}

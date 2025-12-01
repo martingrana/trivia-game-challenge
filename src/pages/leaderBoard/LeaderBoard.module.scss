@@ -1,0 +1,107 @@
+.container {
+    background: white;
+    border-radius: 24px;
+    padding: 40px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    max-width: 700px;
+    max-height: 90vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-sizing: border-box;
+    @media (max-width: 768px) {
+        padding: 20px 10px; 
+    }
+}
+
+.header {
+    h3 {
+        color: #2d3748;
+        margin-bottom: 24px;
+        text-align: center;
+        font-weight: 600;
+    }
+}
+
+.trophyIcon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+    color: #f88305;
+}
+
+.chipsContainer {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.chipButton {
+    padding: 10px 24px;
+    border: 2px solid #e2e8f0;
+    background: white;
+    color: #718096;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+
+    &:hover {
+        border-color: #cbd5e0;
+        background: #f7fafc;
+    }
+
+    &.active {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        border-color: transparent;
+    }
+
+    &:focus-visible {
+        outline: 2px solid #667eea;
+        outline-offset: 2px;
+    }
+}
+
+.entries {
+    max-height: 450px;
+    margin-bottom: 32px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    flex: 1;
+    padding-right: 8px;
+}
+
+.scoresList {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.empty {
+    text-align: center;
+    padding: 60px 20px;
+    color: #718096;
+
+    p {
+        margin: 8px 0;
+        font-weight: 500;
+
+        &:first-child {
+            font-size: 1.125rem;
+            color: #4a5568;
+        }
+    }
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    @media (max-width: 768px) {
+        gap: 10px;
+        flex-direction: column;
+    }
+}

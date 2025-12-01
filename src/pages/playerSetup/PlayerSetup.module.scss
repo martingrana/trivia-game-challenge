@@ -1,0 +1,56 @@
+.setupContainer {
+    background: white;
+    border-radius: 24px;
+    padding: 60px 40px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .iconContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+    color: #f56565;
+    filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1));
+  }
+
+  .classic {
+    color: #6f6fff;
+  }
+  
+  .title {
+    color: #2d3748;
+    margin-bottom: 12px;
+  }
+  
+  .subtitle {
+    color: #718096;
+    margin-bottom: 40px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  .startButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 16px 32px;
+    background: linear-gradient(135deg, #f56565 0%, #ed8936 100%);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top: 16px;
+  }
+  
+  .startButton:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(245, 101, 101, 0.3);
+  }
