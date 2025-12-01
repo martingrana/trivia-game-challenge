@@ -57,6 +57,14 @@ Se agregó un pequeño delay para evitar un flash demasiado rápido del loader.
 
 ## Showcase de la app
 
-- [Demo Modo Clásico](./showcase-app-classic-mode.mp4)
-- [Demo Modo Batalla](./showcase/showcase-battle-mode.mp4)
-- [Demo versión Mobile](./showcase/showcase-mobile.mp4)
+### Modo Clásico
+
+<video src="./showcase/showcase-app-classic-mode.mp4" controls width="100%"></video>
+
+### Modo Batalla
+
+<video src="./showcase/showcase-battle-mode.mp4" controls width="100%"></video>
+
+### Versión Mobile
+
+<video src="./showcase/showcase-mobile.mp4" controls width="100%"></video>
